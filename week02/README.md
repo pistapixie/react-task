@@ -1,8 +1,14 @@
-# React + Vite
+### 리액트 2주차 과제
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- [x] 바닐라 프로젝트에서 동적으로 렌더링했던 UI 조각을 선택.
+- [x] 바닐라 프로젝트에서 활용했던 데이터베이스의 데이터를 JSON 파일로 로컬 드라이브에 저장.
+- [x] JSON 데이터를 불러와 마크업에 연결하여 UI를 구현. 필요한 경우, 리스트 렌더링을 활용.
 
-Currently, two official plugins are available:
+ **1. 바닐라 프로젝트 개요**
+- 엔터 이듬 시안 (모바일)
+- vanilla javascript
+- pure css
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**2. 카테고리 페이지 선택**
+![바닐라 자바스크립트로 작업한 카테고리 페이지 이미지](![mobile (6)](https://github.com/pistapixie/react-task/assets/144419094/040bac72-7a46-4ff7-8233-a28687b88623)
+)
