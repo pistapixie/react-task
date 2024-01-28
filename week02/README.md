@@ -10,5 +10,8 @@
 - pure css
 
 **2. 카테고리 페이지 선택**
-![바닐라 자바스크립트로 작업한 카테고리 페이지 이미지](![mobile (6)](https://github.com/pistapixie/react-task/assets/144419094/040bac72-7a46-4ff7-8233-a28687b88623)
-)
+- 포켓호스트 DB에서 데이터를 가져와 동적으로 랜더링되던 카테고리 리스트
+  
+<img src="./public/readme/바닐라프로젝트.png" width="200" height="auto">
+
+
