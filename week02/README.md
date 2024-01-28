@@ -48,7 +48,36 @@ export default App;
 - React Developer Tool로 확인한 컴포넌트 구조
 <img src="./public/readme/컴포넌트트리.png" width="250" height="auto" >
 
-### 4. CategoryCard.jsx
+### 4. category.json
+```json
+{
+  "items": [
+    {
+      "id": "category-cksd",
+      "mainCategory": "프로그래밍",
+      "subCategory": "프론트엔드"
+    },
+    {
+      "id": "category-skel",
+      "mainCategory": "프로그래밍",
+      "subCategory": "백 엔드"
+    },
+    ...
+    {
+      "id": "category-qoww",
+      "mainCategory": "프로그래밍",
+      "subCategory": "웹접근성"
+    },
+    {
+      "id": "category-mnbv",
+      "mainCategory": "프로그래밍",
+      "subCategory": "블록체인"
+    }
+  ]
+}
+```
+
+### 5. CategoryCard.jsx
 ```jsx
 import "./CategoryCard.css";
 import plus from "/src/assets/plus.svg";
@@ -79,4 +108,28 @@ export function CategoryCardList({ children }) {
   return <ul className="category-list">{children}</ul>;
 }
 ```
+### 6. 이슈
+- 동일한 css 코드를 사용했으나 컴포넌트화 했을시 css가 다르게 랜더링되는 이슈가 발생.
+- `.category-list`의 grid가 정상적으로 적용되지 않음.
+  
+  <img src="./public/readme/이슈.png" width="300" height="auto" >
+
+- 원인을 파악하고자 했으나 해결이 안 되어 grid 스타일을 적용시키지 않고 마무리 함.
+  ```css
+  .category-list {
+  /* display: grid;
+  place-items: center;
+  grid-template-columns: repeat(2,minmax(0,1fr)); */
+  margin-top: 10px;
+  padding-bottom: 10px;
+  grid-column-gap: 0.5rem;
+  width: 100%;
+  ```
+- 데이터 바인딩 및 리스트 랜더링을 구현한 과제 모습
+  
+  <img src="./public/readme/과제구현.png" width="200" height="auto" >
+
+  ### 7. 과제 소감
+  바닐라 프로젝트 때 했던 작업을 리액트 방식으로 다시 다듬는 과정이 재미있었다. 직접 코드 작업을 하니 리액트와 조금은 가까워진 기분.
+  예상치 못한 css 스타일 적용 이슈가 당황스러웠는데 이를 해결하지 못해 아쉽고 원인을 알고 싶다.
 
