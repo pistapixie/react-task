@@ -1,0 +1,74 @@
+{
+  "items": [
+    {
+      "id": "category-cksd",
+      "mainCategory": "프로그래밍",
+      "subCategory": "프론트엔드"
+    },
+    {
+      "id": "category-skel",
+      "mainCategory": "프로그래밍",
+      "subCategory": "백 엔드"
+    },
+    {
+      "id": "category-slie",
+      "mainCategory": "프로그래밍",
+      "subCategory": "리액트"
+    },
+    {
+      "id": "category-owef",
+      "mainCategory": "프로그래밍",
+      "subCategory": "풀스텍"
+    },
+    {
+      "id": "category-owjj",
+      "mainCategory": "프로그래밍",
+      "subCategory": "알고리즘"
+    },
+    {
+      "id": "category-pwef",
+      "mainCategory": "프로그래밍",
+      "subCategory": "기초지식"
+    },
+    {
+      "id": "category-qhue",
+      "mainCategory": "디자인",
+      "subCategory": "UI 디자인"
+    },
+    {
+      "id": "category-asdf",
+      "mainCategory": "디자인",
+      "subCategory": "UX 디자인"
+    },
+    {
+      "id": "category-ieho",
+      "mainCategory": "디자인",
+      "subCategory": "UI/UX"
+    },
+    {
+      "id": "category-psei",
+      "mainCategory": "데이터",
+      "subCategory": "데이터분석"
+    },
+    {
+      "id": "category-lwer",
+      "mainCategory": "데이터",
+      "subCategory": "통계분석"
+    },
+    {
+      "id": "category-asie",
+      "mainCategory": "데이터",
+      "subCategory": "시각화"
+    },
+    {
+      "id": "category-qoww",
+      "mainCategory": "프로그래밍",
+      "subCategory": "웹접근성"
+    },
+    {
+      "id": "category-mnbv",
+      "mainCategory": "프로그래밍",
+      "subCategory": "블록체인"
+    }
+  ]
+}

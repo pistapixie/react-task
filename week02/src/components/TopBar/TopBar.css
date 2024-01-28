@@ -1,0 +1,28 @@
+.login--top-bar{
+  padding: 18px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+ & img{
+  background-color: white;
+ } 
+}
+
+.category-search{
+  overflow: hidden;
+
+& input {
+  border-bottom: 1px solid black;
+  background-image: url('/src/assets/search.svg');
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  background-position:0 center;
+  padding-left: 25px;
+  box-sizing: border-box;
+  width: 75vw;
+  max-width: 545px;
+  height: 35px;
+ }
+}
