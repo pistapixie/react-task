@@ -11,7 +11,9 @@
 
 **2. 카테고리 페이지 선택**
 - 포켓호스트 DB에서 데이터를 가져와 동적으로 랜더링되던 카테고리 리스트
-  
-<img src="./public/readme/바닐라프로젝트.png" width="200" height="auto">
 
+<div style="display: flex;">
+  <img src="./public/readme/바닐라프로젝트.png" width="200" height="auto" style="margin-right: 200;">
+  <img src="./public/readme/포켓호스트.png" width="300" height="auto" style="margin-top: -10;">
+</div>
 
