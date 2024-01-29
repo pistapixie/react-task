@@ -112,7 +112,7 @@ export function CategoryCardList({ children }) {
 - 동일한 css 코드를 사용했으나 컴포넌트화 했을시 css가 다르게 랜더링되는 이슈가 발생.
 - `.category-list`의 grid가 정상적으로 적용되지 않음.
   
-  <img src="./public/readme/이슈.png" width="300" height="auto" >
+  <img src="./public/readme/이슈비교.png" width="500" height="auto" >
 
 - 원인을 파악하고자 했으나 해결이 안 되어 grid 스타일을 적용시키지 않고 마무리 함.
   ```css
