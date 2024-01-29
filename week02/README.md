@@ -119,10 +119,10 @@ export function CategoryCardList({ children }) {
   .category-list {
   /* display: grid;
   place-items: center;
-  grid-template-columns: repeat(2,minmax(0,1fr)); */
+  grid-template-columns: repeat(2,minmax(0,1fr)); 
+  grid-column-gap: 0.5rem; */
   margin-top: 10px;
   padding-bottom: 10px;
-  grid-column-gap: 0.5rem;
   width: 100%;
   ```
 - 데이터 바인딩 및 리스트 랜더링을 구현한 과제 모습
