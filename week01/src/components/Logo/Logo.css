@@ -1,0 +1,29 @@
+.login--logo-container{
+  display: flex;
+  position: fixed;
+  text-align: center;
+  flex-direction: column;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, calc(-50% - 4px));
+  
+  & img {
+    width: 5.5rem;
+    max-width: 125px;
+    padding-bottom: 5px;
+  }
+
+  & h2 {
+    color: var(--primary, #373F67);
+    font-weight: 700;
+    white-space: nowrap;
+    padding-bottom: 0.625rem;
+  }
+
+  & p {
+    margin: 0;
+    line-height: 160%;
+    color: var(--primary, #373F67);
+    white-space: nowrap; 
+  }
+}

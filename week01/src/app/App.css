@@ -1,0 +1,28 @@
+.start-container{
+  max-width: 599px;
+  margin: 0 auto;
+  /* padding-bottom: 68px; */
+  height: 100vh;
+  background-color: pink;
+}
+
+.link-container{
+  background-color: aquamarine;
+  /* left: 0;  */
+  /* right: 0; */
+  gap: 1.5rem;
+  /* bottom: 1rem;  */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* justify-content: flex-end; */
+  width: 100%;
+
+/* 시작하기 */
+  
+}
+
+
+
+
+

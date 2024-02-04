@@ -1,0 +1,26 @@
+
+.go-register {
+  width: 30%;
+  color: #FFF;
+  text-align: center;
+  border-radius: 8px;
+  text-decoration: none;
+  padding: 0.563rem 7.875rem;
+  background: var(--primary, #373F67);
+  margin-top: 80vh;
+  }
+ 
+.go-login{ 
+    /* background-color: pink; */
+    line-height: 160%;
+    text-decoration: none;
+    color: var(--Contents-contentSecondary, #919191);
+
+    & span {
+      font-weight: 600;
+      margin-left: 1rem;
+      color: var(--primary, #373F67);
+    }
+  }
+
+  
