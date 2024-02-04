@@ -1,0 +1,29 @@
+
+.app{
+  padding-top: 5px;
+
+  & h1{
+    color: var(--primary, #373F67);
+    font-weight: 700;
+    line-height: 140%;
+    padding-left: 0.3rem;
+    padding-bottom: 0.3rem;
+  }
+}
+
+.category-wrapper{
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+
+
+
+
+
+
+
