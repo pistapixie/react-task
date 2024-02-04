@@ -1,15 +1,16 @@
 .category-list {
-  /* display: grid;
+  background-color: pink;
+  display: grid;
   place-items: center;
   grid-template-columns: repeat(2,minmax(0,1fr)); 
-  grid-column-gap: 0.5rem; */
+  grid-column-gap: 0.5rem;
   margin-top: 10px;
   padding-bottom: 10px;
   width: 100%;
   
    li {
     width: 100%;
-    display: flex;
+    /* display: flex; */
     justify-content: center; 
     align-items: center; 
     }
