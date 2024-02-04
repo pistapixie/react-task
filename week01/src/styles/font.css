@@ -10,7 +10,7 @@
 .paragraph-l,
 .paragraph-m,
 .paragraph-s {
-  color: var(--Contents-contentPrimary, #000);
+  /*color: var(--Contents-contentPrimary, #000);*/
   font-family: Pretendard;
   font-style: normal;
   font-weight: 600;
