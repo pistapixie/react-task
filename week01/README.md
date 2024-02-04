@@ -10,7 +10,7 @@
 
 ### 2. 스타트 페이지 선택
 
-<img src="./public/readme/startPage.png" width="750" height="auto" >
+<img src="./public/readme/스타트페이지.png" width="750" height="auto" >
 
 ### 3. 환경구성
 
@@ -78,6 +78,7 @@ export default App;
 ```
 
 - React Developer Tool로 확인한 컴포넌트 구조
+
   <img src="./public/readme/componentTree.png" width="250" height="auto" >
 
 ### 6. LinkButton.jsx
@@ -104,6 +105,7 @@ export default LinkButton;
 
 ### 8. 문제 해결?
 
-- 해당 스타일만 인라인으로 넣어주니 글자색 스타일 적용이 되었다.
-- 하지만 왜 import한 css파일에서 해당 글자들만 스타일 적용이 되지 않았는지 의문이다.
   <img src="./public/readme/글자색.png" width="350" height="auto" >
+
+- 해당 스타일을 인라인으로 넣어주니 글자색 스타일 적용이 되었다.
+- 하지만 왜 import한 css파일에서 해당 글자들만 스타일 적용이 되지 않았는지 의문이다.
