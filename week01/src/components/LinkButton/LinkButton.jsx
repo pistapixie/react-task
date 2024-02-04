@@ -1,8 +1,8 @@
 import "./LinkButton.css";
 
-function LinkButton({ className, ariaLabel, href, children }) {
+function LinkButton({ className, ariaLabel, href, children, style }) {
   return (
-    <a className={className} aria-label={ariaLabel} href={href}>
+    <a className={className} aria-label={ariaLabel} href={href} style={style}>
       {children}
     </a>
   );
