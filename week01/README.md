@@ -1,18 +1,20 @@
 ## 리액트 1주차 과제
 
+**요구 사항**
+
 - [x] JSX 또는 React API를 사용해, Vanilla 프로젝트에서 구현한
       인터페이스의 일부를 마크업하여 웹 브라우저에 렌더링되도록 만듭니다.
 
-### 1. 바닐라 프로젝트 스택
+**바닐라 프로젝트 info**
 
 - 시안 : 엔터 이듬 (모바일)
 - FE : HTML, Pure CSS, Vanilla Javascript
 
-### 2. 스타트 페이지 선택
+**스타트 페이지 선택**
 
 <img src="./public/readme/스타트페이지.png" width="250" height="auto" >
 
-### 3. 환경구성
+### 1. 환경구성
 
 ```bash
 pnpm create vite week01
@@ -23,7 +25,7 @@ pnpm i
 
 pnpm 패키지 매니저를 사용하여 vite를 이용한 새로운 프로젝트를 생성
 
-### 4. main.jsx
+### 2. main.jsx
 
 ```jsx
 import React from "react";
@@ -38,7 +40,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 );
 ```
 
-### 5. App.jsx
+### 3. App.jsx
 
 ```jsx
 import Logo from "../components/Logo/Logo";
@@ -81,7 +83,7 @@ export default App;
 
   <img src="./public/readme/componentTree.png" width="250" height="auto" >
 
-### 6. LinkButton.jsx
+### 4. LinkButton.jsx
 
 ```jsx
 import "./LinkButton.css";
@@ -97,13 +99,13 @@ function LinkButton({ className, ariaLabel, href, children, style }) {
 export default LinkButton;
 ```
 
-### 7. 이슈
+### 5. 이슈
 
 - LinkButton 컴포넌트의 일부 스타일이 적용되지 않는 문제 발생
 - '시작하기' 와 '이미 계정이 있나요?' 글자색만 스타일이 적용되지 않음.
 - '로그인'의 글자색은 적용이 됨.
 
-### 8. 문제 해결(?)
+### 6. 문제 해결(?)
 
   <img src="./public/readme/글자색.png" width="350" height="auto" >
 

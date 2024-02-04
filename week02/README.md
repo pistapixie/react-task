@@ -1,24 +1,25 @@
 ## 리액트 2주차 과제
 
+**요구 사항**
+
 - [x] 바닐라 프로젝트에서 동적으로 렌더링했던 UI 조각을 선택.
 - [x] 바닐라 프로젝트에서 활용했던 데이터베이스의 데이터를 JSON 파일로 로컬 드라이브에 저장.
 - [x] JSON 데이터를 불러와 마크업에 연결하여 UI를 구현. 필요한 경우, 리스트 렌더링을 활용.
 
-### 1. 바닐라 프로젝트 스택
+**바닐라 프로젝트 info**
 
 - 시안 : 엔터 이듬 (모바일)
 - FE : HTML, Pure CSS, Vanilla Javascript
 - DB : PocketHost
-- 기타 : Vite, Git, Netlify
 
-### 2. 카테고리 리스트 선택
+**카테고리 리스트 선택**
 
-- 포켓호스트 DB에서 데이터를 가져와 동적으로 랜더링되는 카테고리 리스트
+- 기존 카테고리 리스트는 포켓호스트 DB에서 데이터를 가져와 동적으로 랜더링이 됨.
 - 해당 UI 조각을, JSON에서 데이터를 가져와 리스트 랜더링하는 리액트 방식으로 구현할 것.
 
 <img src="./public/readme/바닐라.png" width="750" height="auto" >
 
-### 3. App.jsx
+### 1. App.jsx
 
 ```jsx
 import TopBar from "../components/TopBar/TopBar";
@@ -52,7 +53,7 @@ export default App;
 - React Developer Tool로 확인한 컴포넌트 구조
   <img src="./public/readme/컴포넌트트리.png" width="250" height="auto" >
 
-### 4. category.json
+### 2. category.json
 
 ```json
 {
@@ -82,7 +83,7 @@ export default App;
 }
 ```
 
-### 5. CategoryCard.jsx
+### 3. CategoryCard.jsx
 
 ```jsx
 import "./CategoryCard.css";
@@ -115,7 +116,7 @@ export function CategoryCardList({ children }) {
 }
 ```
 
-### 6. 이슈
+### 4. 이슈
 
 - 동일한 css 코드를 사용했으나 컴포넌트화 했을시 css가 다르게 랜더링되는 이슈가 발생.
 - `.category-list`의 grid가 정상적으로 적용되지 않음.
@@ -137,7 +138,7 @@ export function CategoryCardList({ children }) {
 
   <img src="./public/readme/과제구현.png" width="200" height="auto" >
 
-  ### 7. 과제 소감
+  ### 5. 과제 소감
 
   바닐라 프로젝트 때 했던 작업을 리액트 방식으로 다시 다듬는 과정이 재미있었다. 직접 코드 작업을 하니 리액트와 조금은 가까워진 기분.
   데이터 바인딩 및 리스트 랜더링을 직접 구현 해 볼 수 있어서 좋았는데, 예상치 못한 css 스타일 적용 이슈는 꽤나 당황스러웠다.
