@@ -10,7 +10,7 @@
 
 ### 2. 스타트 페이지 선택
 
-<img src="./public/readme/스타트페이지.png" width="750" height="auto" >
+<img src="./public/readme/스타트페이지.png" width="250" height="auto" >
 
 ### 3. 환경구성
 
