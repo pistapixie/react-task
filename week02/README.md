@@ -51,6 +51,7 @@ export default App;
 ```
 
 - React Developer Tool로 확인한 컴포넌트 구조
+
   <img src="./public/readme/컴포넌트트리.png" width="250" height="auto" >
 
 ### 2. category.json
