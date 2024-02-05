@@ -13,7 +13,7 @@ function App() {
             className="go-register label-s "
             ariaLabel="회원가입 페이지로 이동"
             href="/"
-            style={{ color: "#FFF" }}
+            // style={{ color: "#FFF" }}
           >
             시작하기
           </LinkButton>
@@ -21,7 +21,6 @@ function App() {
             className="go-login paragraph-m "
             ariaLabel="로그인 페이지로 이동"
             href="/"
-            style={{ color: "#919191" }}
           >
             이미 계정이 있나요? <span className="paragraph-m">로그인</span>
           </LinkButton>
