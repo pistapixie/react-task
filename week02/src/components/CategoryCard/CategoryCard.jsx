@@ -20,8 +20,7 @@ export function CategoryCard() {
     );
   });
 
-  return <ul className="category-list">{result}</ul>;
-  // return { result };
+  return <>{result}</>;
 }
 
 export function CategoryCardList({ children }) {
