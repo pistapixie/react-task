@@ -109,11 +109,12 @@ export function CategoryCard() {
     );
   });
 
-  return <ul className="category-list">{result}</ul>;
+  return <>{result}</>;
 }
 
 export function CategoryCardList({ children }) {
   return <ul className="category-list">{children}</ul>;
+  // return <ul className="category-list">{children}</ul>;
 }
 ```
 

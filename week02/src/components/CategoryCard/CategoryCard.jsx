@@ -25,5 +25,4 @@ export function CategoryCard() {
 
 export function CategoryCardList({ children }) {
   return <ul className="category-list">{children}</ul>;
-  // return <ul className="category-list">{children}</ul>;
 }
